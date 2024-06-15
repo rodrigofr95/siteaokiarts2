@@ -218,27 +218,22 @@
 		<div class="container">
 			<div class="row">
 				<!-- Contact Form -->
-				<div class="signup-form">
-					<form id="signup-form" method="post" action="processar_cadastro.php" role="form">
-				
-						<div class="form-group">
-							<input type="text" placeholder="Nome completo" class="form-control" name="fullname" id="fullname" required>
-						</div>
-				
-						<div class="form-group">
-							<input type="email" placeholder="Seu Email" class="form-control" name="email" id="email" required>
-						</div>
-				
-						<div class="form-group">
-							<input type="password" placeholder="Senha" class="form-control" name="password" id="password" required>
-						</div>
-				
-						<div class="form-group">
-							<a href="signinsuccess.html" class="btn btn-main mt-20">Cadastrar</a>
-						</div>
-				
-					</form>
-				</div>
+				<!-- signin.html -->
+<form id="signup-form" method="post" action="/cadastro">
+	<div class="form-group">
+	  <input type="text" placeholder="Nome completo" class="form-control" name="nome" id="nome" required>
+	</div>
+	<div class="form-group">
+	  <input type="email" placeholder="Seu Email" class="form-control" name="email" id="email" required>
+	</div>
+	<div class="form-group">
+	  <input type="password" placeholder="Senha" class="form-control" name="password" id="password" required>
+	</div>
+	<div class="form-group">
+	  <button type="submit" class="btn btn-main mt-20">Cadastrar</button>
+	</div>
+  </form>
+  
 				<!-- ./End Contact Form -->
 				
 
